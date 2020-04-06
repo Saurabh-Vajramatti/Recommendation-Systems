@@ -44,8 +44,7 @@ I went with combining them together as a weighted average, which means:
 
 The key idea is: the CF focuses on the neighbors of the item and the model-based RS focuses on the user and item themselves. Specifically, if the item has a smaller number of neighbors, then the weight of the CF should be smaller.
 
-Validation Set Baselines and my results:
-Task	RMSE	Run Time(sec)   RMSE achieved
-Item-CF 1.09	130             1.068
-Model	1.00	250             0.987
-Hybrid	0.99	300             0.984
+# My RMSE value results:
+Item-CF:1.068
+Model:0.987
+Hybrid:0.984
